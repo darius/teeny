@@ -1,0 +1,27 @@
+<Czero> if you to a 'todo', one thing to take into account is that I think my
+  pseudo dynamic typing doesn't choose methods in the same way as javac would
+
+<Czero> I think in Java_invocation there is some hacky invalid code for
+  dealing with teeny types that should probably be clipped out, peeking
+
+take a look at yassl again
+
+read floats with exponential notation
+it would be nice if we could write read-macros
+
+exceptions
+
+should Symbol be simply String?
+maybe Lists should be Vectors
+use Hashtable instead of awklisp get and put
+do numbers in terms of the 1.1 number classes
+
+symbol table should be either synchronized or thread-local -- what
+else should we do about threads?  we want to spawn 'em in the
+language, and stuff, too.
+
+more iteration constructs, or make it tail-recursive
+
+make sure it's easy for java code to call on lisp, as well
+
+docs

@@ -1,0 +1,19 @@
+This is a preliminary release of a small Scheme subset interpreter with
+access to the Java API through Java's reflection mechanisms.  A later
+release will work better and have actual documentation.
+
+All code is Copyright 1998 by Darius Bacon, Luke Gorrie, and Trannie
+Carter, and is distributed under the GNU Library General Public
+License; see the file COPYING.LIB.
+
+Send questions and bug reports to Darius Bacon <djello@well.com>.
+
+
+A sample session:
+
+	$ java teeny.Interpreter teeny/library.scm -
+	teeny> (+ 2 3)
+	5
+	teeny> 
+
+The - stands for standard input.  Enter EOF or (exit 0) to quit.
